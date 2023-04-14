@@ -1,7 +1,12 @@
 <div class="wrapper">
 
-  <input type="color" [(ngModel)]="selectedColor" />
+  <input 
+    type="color" 
+    [(ngModel)]="colorSelected" 
+  />
 
-  <app-badge [backgroundColor]="selectedColor"> </app-badge>
+  <app-badge 
+    [backgroundColor]="colorSelected">
+  </app-badge>
 
 </div>

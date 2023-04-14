@@ -5,6 +5,7 @@
   [colorPickerValue]="'#ffffff'">
 </app-color-picker>
 -->
-
-<input type="color" [(ngModel)]="selectedColor" />
-<app-badge [backgroundColor]="selectedColor"> </app-badge>
+<div class="wrapper">
+  <input type="color" [(ngModel)]="selectedColor" />
+  <app-badge [backgroundColor]="selectedColor"> </app-badge>
+</div>

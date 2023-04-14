@@ -7,10 +7,8 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class ColorPickerComponent {
 
-  @Input() colorPickerId: string | undefined;
-
-  @Input() colorPickerValue: string | undefined;
-
-  @Input() colorPickerTitle: string | undefined;
+  @Input() id: string | undefined;
+  @Input() value: string | undefined;
+  @Input() title: string | undefined;
 
 }

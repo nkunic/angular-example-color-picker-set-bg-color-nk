@@ -9,5 +9,4 @@ export class BadgeComponent {
 
   @Input() backgroundColor: string|undefined;
 
-
 }
